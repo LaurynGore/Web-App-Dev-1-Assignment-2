@@ -1,0 +1,13 @@
+<form class="ui stacked segment form" action="/booklist/{{booklist.id}}/addBook" method="POST" enctype="multipart/form-data">
+  <div class="two fields">
+    <div class="field">
+      <label>Title</label>
+      <input type="text" name="title" autofocus required title="Please include a valid Title" placeholder="Title" />
+    </div>
+    <div class="field">
+      <label>Image</label>
+      <input placeholder="Image" type="file" name="picture" required />
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Book</button>
+</form>

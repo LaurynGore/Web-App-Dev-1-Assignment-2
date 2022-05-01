@@ -1,0 +1,71 @@
+{
+  "booklistCollection": [
+    {
+      "id": "9a999a0d-7b59-46c7-b0e0-bf83f11d4806",
+      "userId": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "name": "J.K Rowling",
+      "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651438712/wutwqkkrcswlvbboaqgv.jpg",
+      "books": [
+        {
+          "id": "88d646d7-37a7-4171-9bfb-2a45b7a07c0c",
+          "title": "Philosopher's Stone",
+          "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651438763/kwc36p2uvegtmsecotab.jpg"
+        },
+        {
+          "id": "3aa53c15-e898-4318-ad0e-5437c8589774",
+          "title": "Chamber of Secrets",
+          "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651438881/z6ncksry2sdwdtmj13gj.jpg"
+        }
+      ]
+    },
+    {
+      "id": "70093a94-7e71-4bd9-aeda-860cd3c5418d",
+      "userId": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "name": "Darek Landy",
+      "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651438934/fg6mkx6hrnwcsdnrutim.jpg",
+      "books": [
+        {
+          "id": "9578de03-b548-482b-9d19-5fbc743b19d9",
+          "title": "Skulduggery Pleasant",
+          "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651438989/nglvxqgzqfdrkse40l9m.jpg"
+        }
+      ]
+    },
+    {
+      "id": "005a1aee-842f-4431-9e69-d70849d5b49a",
+      "userId": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "J.R.R Tolkien",
+      "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651439051/jcbbrgfbbeywaqxkuwp9.jpg",
+      "books": [
+        {
+          "id": "e5941e86-6167-4612-aeef-46ae4ee9d49a",
+          "title": "Lord of The Rings",
+          "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651439108/mm64etenfko9jgc3sk16.jpg"
+        },
+        {
+          "id": "1843c08f-7bce-45eb-a1ba-2fcbd212e8e8",
+          "title": "The Hobbit",
+          "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651439145/tsux2zxbjseyudkh7mff.jpg"
+        },
+        {
+          "id": "68055202-ef41-4dfa-bc99-1de2f81ece24",
+          "title": "The Book of Lost Tales",
+          "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651439220/ssi3jikhhfap94jcrqyu.jpg"
+        }
+      ]
+    },
+    {
+      "id": "50aea597-7b47-42af-8009-a87efed6ee23",
+      "userId": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Richard Cavendish",
+      "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651439290/ttlgnovteoch6nmdqego.jpg",
+      "books": [
+        {
+          "id": "7b442417-e459-437e-9c27-2857e2e522f2",
+          "title": "The Blackest Arts",
+          "picture": "http://res.cloudinary.com/ddzu5ngbv/image/upload/v1651439340/ntwf6h3w5ycxcjksccx4.jpg"
+        }
+      ]
+    }
+  ]
+}

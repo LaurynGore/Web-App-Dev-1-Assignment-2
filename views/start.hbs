@@ -1,0 +1,143 @@
+{{#if loggedIn}}
+  {{> menu}}
+{{else}}
+  {{> welcomeMenu}}
+  <section class="ui center aligned middle aligned segment">
+    <p> Sign up or Log in </p>
+  </section>
+{{/if}}
+
+
+
+<section class="ui two column grid segment">
+  <div class="ui column">
+    <h2 class="ui header">
+      Welcome to the Booklist App, {{fullName}}!
+    </h2>
+    <p>
+      This app will allow users to create and maintain a collection of
+      books.
+    </p>
+    <img class="ui small circular image"
+      src="https://cdn.glitch.global/85871478-b285-4223-990f-3e97e0cce08d/Myself.jpg?v=1647618792383"
+      alt="Image of me.">
+  </div>
+
+  <div class="ui column">
+    <div class="buttons">
+      <button class="ui blue button">
+        Read more <i class="arrow circle right icon"></i>
+      </button>
+      <button class="ui green button">
+        Like it? <i class="thumbs up icon"></i>
+      </button>
+    </div>
+    <div id="readmore" class="ui message">
+      <p>
+        In this app you can add or remove books from the collection. You
+        can also rate the books you like or dislike.
+      </p>
+
+    </div>
+    <div id="w_user" class="ui message"></div>
+    
+  </div>
+</section>
+
+{{#if loggedIn}}
+<section class="ui one column grid segment">
+  <div class="ui column">
+    <h3 class="ui header">Global Statistics</h3>
+    <div class="ui two statistics">
+      <div class="ui huge statistic">
+        <div class="value">
+          {{statAllTotalBooklists}}
+        </div>
+        <div class="label">
+          Booklists
+        </div>
+      </div>
+      <div class="ui huge statistic">
+        <div class="value">
+          {{statAllTotalBooks}}
+        </div>
+        <div class="label">
+          Books
+        </div>
+      </div>
+      <div class="ui huge statistic">
+        <div class="value">
+          {{statAllAvgBooksPerUser}}
+        </div>
+        <div class="label">
+          Average Books Per User
+        </div>
+      </div>
+      <div class="ui huge statistic">
+        <div class="value">
+          {{statAllUserWithMost}}
+        </div>
+        <div class="label">
+          User With Most Books
+        </div>
+      </div>
+            <div class="ui huge statistic">
+        <div class="value">
+          {{statAllUserWithLeast}}
+        </div>
+        <div class="label">
+          User With Least Amount of Books
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ui one column grid segment">
+  <div class="ui column">
+    <h3 class="ui header">User Statistics</h3>
+    <div class="ui two statistics">
+      <div class="ui huge statistic">
+        <div class="value">
+          {{statUserTotalBooklists}}
+        </div>
+        <div class="label">
+          Booklists
+        </div>
+      </div>
+      <div class="ui huge statistic">
+        <div class="value">
+          {{statUserTotalBooks}}
+        </div>
+        <div class="label">
+          Books
+        </div>
+      </div>
+      <div class="ui huge statistic">
+        <div class="value">
+          {{statUserAvgBooksPerList}}
+        </div>
+        <div class="label">
+          Average Books Per List
+        </div>
+      </div>
+
+      <div class="ui huge statistic">
+        <div class="value">
+          {{statUserListWithMost}}
+        </div>
+        <div class="label">
+          Biggest List
+        </div>
+      </div>
+<div class="ui huge statistic">
+        <div class="value">
+          {{statUserListWithLeast}}
+        </div>
+        <div class="label">
+          Smallest List
+        </div>
+    </div>
+  </div>
+</section>
+{{/if}}
